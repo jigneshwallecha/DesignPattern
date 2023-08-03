@@ -1,0 +1,119 @@
+# --------------- #
+# Compiled Source #
+# --------------- #
+*.dll
+*.exe
+lib/
+
+# ------------------ #
+# Database Artifacts #
+# ------------------ #
+*.lst
+dba_scripts/
+
+# ----------------- #
+# Diff/Merge Output #
+# ----------------- #
+*.orig
+
+# ---------------- #
+# Generated Source #
+# ---------------- #
+*.gen.cs
+*.feature.cs
+
+# -------------------- #
+# Local Settings Files #
+# -------------------- #
+_Resharper*
+*.DotSettings
+*.suo
+*.user
+.idea/
+src/.vs/
+
+# ----------- #
+# NPM Modules #
+# ----------- #
+node_modules/
+
+# -------------- #
+# NuGet Packages #
+# -------------- #
+nuget-packages/*
+# But don't ignore the repositories.config file!
+!nuget-packages/repositories.config
+
+# -------------- #
+# Package Output #
+# -------------- #
+output/
+target/
+
+# -------------- #
+# Project Output #
+# -------------- #
+bin/
+obj/
+
+# ----------------- #
+# Puppet Temp Files #
+# ----------------- #
+puppet/.*
+puppet/modules
+
+# ----------------- #
+# Web deploy files  #
+# ----------------- #
+deploy/**
+
+# ----------------- #
+# Terraform         #
+# ----------------- #
+.terraform
+tfplan
+
+
+# ---------#
+# StyleCop #
+# ---------#
+StyleCop.Cache
+
+# --------------- #
+# Temporary Files #
+# --------------- #
+temp
+verfile
+
+# ------------ #
+# Version Info #
+# ------------ #
+BuildVersion.txt
+
+# ------------ #
+# Reports      #
+# ------------ #
+reports/
+
+*.vscode/*
+
+*.DS_Store
+*/.idea/*
+
+# code coverage
+coverage-html
+coverage.json
+coverage-hits.txt
+
+# ------------ #
+# node modules #
+# ------------ #
+CloudSearch/node_modules
+
+# ------------ #
+# Log Files    #
+# ------------ #
+log*.txt
+package-lock.json
+
+load-test/*.html
