@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="Sequence\" />
+    <None Remove="CircuitBreaker\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Sequence\" />
+    <Folder Include="CircuitBreaker\" />
   </ItemGroup>
 </Project>
